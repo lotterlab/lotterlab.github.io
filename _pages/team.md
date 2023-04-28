@@ -11,7 +11,7 @@ nav_rank: 2
 
 {% assign groups = site.team | sort: "group_rank" | map: "group" | uniq %}
 {% for group in groups %}
-## {{ group }}
+
 
  {% assign team = site.team | sort: "group_order" | where: "group", group %}
     {% for member in team %}
@@ -53,9 +53,11 @@ nav_rank: 2
                     {% if member.profile.website %}
                         <a href="{{ member.profile.website }}" class="card-link" target="_blank" style="font-size: 30px"><i class="fas fa-globe"></i></a>
                     {% endif %}
-                    <p class="card-text">
-                        <small class="test-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small>
-                    </p>
+                    {% if member.profile.address %}
+                        <p class="card-text">
+                            <small class="test-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small>
+                        </p>
+                    {% endif %}
                 </div>
             </div>
         </div>

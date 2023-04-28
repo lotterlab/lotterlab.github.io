@@ -11,13 +11,13 @@ lastname: Lotter
 publications:  
 
 teaser: >
-   Bill is a faculty member at the Dana-Farber Cancer Institute & Harvard Medical School. Previously, he was the CTO & Co-Founder of DeepHealth Inc., where he led the development of three FDA cleared products that use AI to assist in early breast cancer detection in mammography. These products are currently processing over 1 million mammograms per year, via the acquisition of DeepHealth by RadNet Inc. His AI/machine learning experience spans the domains of medical imaging, neuroscience, algorithmic trading, and sports analytics.
+   Bill is an Assistant Professor at the Dana-Farber Cancer Institute & the Harvard Medical School. Previously, he was the CTO & Co-Founder of DeepHealth Inc., where he led the development of three FDA cleared products that use AI to assist in early breast cancer detection in mammography. These products are currently processing over 1 million mammograms per year, via the acquisition of DeepHealth by RadNet Inc. His AI/machine learning experience spans the domains of medical imaging, neuroscience, algorithmic trading, and sports analytics.
 
 
 profile:
     name: Bill Lotter, PhD
-    position:  
-    team-position: Assistant Professor, Dana-Farber Cancer Institute & Harvard Medical School
+    position:  PI & Assistant Professor
+    team-position: PI & Assistant Professor
     align: right
     logos: true
     image: Bill_Lotter_headshot_2022_cropped2.jpg
