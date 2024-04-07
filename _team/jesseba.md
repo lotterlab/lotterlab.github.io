@@ -3,7 +3,7 @@ layout: about
 inline: true
 group: Faculty
 group_rank: 1
-group_order: 3
+group_order: 4
 
 title: Jesseba Fernando, MS
 description:  
@@ -20,11 +20,11 @@ profile:
     align: right
     logos: true
     image: jesseba.jpg
-    email: 
+    email:
     phone:  
-    twitter: 
-    linkedin: 
-    google_scholar: 
-    address: 
+    twitter:
+    linkedin:
+    google_scholar:
+    address:
 social: False  # includes social icons at the bottom of the page        
 ---
