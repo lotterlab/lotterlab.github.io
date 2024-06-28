@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: <font size="4"><b>Research at the intersection of AI, medical imaging, and computational neuroscience.</b></font><br/>
+subtitle: <font size="5"><b>Towards clinically-effective AI for real-world impact</b></font><br/>
 
 profile:
   align: right
@@ -18,6 +18,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-We are an interdisciplinary group with two core research aims: 1) developing more robust computer vision algorithms using insights from human vision, and 2) optimizing these algorithms for medical imaging to deliver real-world impact. We aim to realize this impact through collaborative research along the full clinical application pipeline - from algorithm development to the science of clinical integration itself.
+We are an interdisciplinary research group with a goal of solving real-world problems in medicine and computational biology using AI. 
+We aim to realize this impact through collaborative research along the full clinical application pipeline - from algorithm development to the science of clinical integration itself.
+This research builds upon our experience in developing FDA-cleared products that have been used across millions of patients. 
+For a list of recent publications, please see [Google Scholar](https://scholar.google.com/citations?user=NaSe78YAAAAJ&hl=en).
 
-<font size="4"><i>Located at the Dana-Farber Cancer Institute and the Harvard Medical School.</i></font>
+<u>Joining the lab</u>: We accept graduate students across Harvard and MIT. We are especially affiliated with the Harvard [BIG](https://dbmi.hms.harvard.edu/education/phd-program/big-phd-track) PhD program and the Harvard-MIT [HST](https://hst.mit.edu/) PhD program. 
+
+<font size="5"><i>Located at the Dana-Farber Cancer Institute and Harvard Medical School.</i></font>
