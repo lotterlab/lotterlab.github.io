@@ -27,8 +27,8 @@ profile:
     linkedin: bill-lotter-62b81243
     google_scholar: citations?user=NaSe78YAAAAJ&hl=en
     address: >
-        CLSB 11044<br />
-        3 Blackfan Circle<br />        
-        Boston, MA 02115
+        LC-5117  <br />
+        360 Longwood Ave<br />        
+        Boston, MA 02215
 social: true  # includes social icons at the bottom of the page        
 ---

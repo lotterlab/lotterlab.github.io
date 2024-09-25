@@ -10,8 +10,8 @@ description:
 lastname: Harary
 publications:  
 
-teaser: >
-    With a background in mathematics, my interests are in AI-assisted biomarker discovery, biomedical imaging, oncogenomics, algorithmic privacy, and theoretical computer science.   
+teaser: 
+    <!-- With a background in mathematics, my interests are in AI-assisted biomarker discovery, biomedical imaging, oncogenomics, algorithmic privacy, and theoretical computer science.  -->
 
 profile:
     name: Marc Harary
