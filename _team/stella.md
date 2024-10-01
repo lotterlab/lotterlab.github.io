@@ -3,7 +3,7 @@ layout: about
 inline: true
 group: Faculty
 group_rank: 1
-group_order: 6
+group_order: 7
 
 title: Stella Su
 description:  

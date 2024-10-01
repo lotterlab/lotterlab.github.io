@@ -3,22 +3,22 @@ layout: about
 inline: true
 group: Faculty
 group_rank: 1
-group_order: 6
+group_order: 5
 
-title: Rohan Singh
+title: Ojas Ramwala
 description:  
-lastname: Singh
+lastname: Ramwala
 publications:  
 
-teaser:   
+teaser:
 
 profile:
-    name: Rohan Singh
-    position:  Undergraduate Student
-    team-position: Undergraduate Student
+    name: Ojas Ramwala
+    position:  Graduate Student
+    team-position: Graduate Student
     align: right
-    logos: false
-    image: rohan.png
+    logos: true
+    image: Ojas-Ramwla-Photo.jpg
     email:
     phone:  
     twitter:
