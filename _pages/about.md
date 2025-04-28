@@ -14,7 +14,7 @@ profile:
     <p>Your City, State 12345</p>
 
 news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: false #includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
@@ -23,6 +23,6 @@ We aim to realize this impact through collaborative research along the full clin
 This research builds upon our experience in developing FDA-cleared products that have been used across millions of patients. 
 For a list of recent publications, please see [Google Scholar](https://scholar.google.com/citations?user=NaSe78YAAAAJ&hl=en).
 
-<u>Joining the lab</u>: We accept graduate students across Harvard and MIT. We are especially affiliated with the Harvard [BIG](https://dbmi.hms.harvard.edu/education/phd-program/big-phd-track) PhD program and the Harvard-MIT [HST](https://hst.mit.edu/) PhD program. 
+<u>Joining the lab</u>: We accept graduate students across Harvard and MIT. We are especially affiliated with the Harvard [BIG](https://dbmi.hms.harvard.edu/education/phd-program/big-phd-track), Harvard [Biophysics](https://biophysics.fas.harvard.edu/), Harvard [AIM](https://bmiphd.hms.harvard.edu/aim-track/welcome-to-aim), and Harvard-MIT [HST](https://hst.mit.edu/) PhD programs. 
 
 <font size="5"><i>Located at the Dana-Farber Cancer Institute and Harvard Medical School.</i></font>
