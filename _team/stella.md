@@ -3,14 +3,14 @@ layout: about
 inline: true
 group: Faculty
 group_rank: 1
-group_order: 7
+group_order: 8
 
 title: Stella Su
 description:  
 lastname: Su
 publications:  
 
-teaser: 
+teaser:
 
 profile:
     name: Stella Su

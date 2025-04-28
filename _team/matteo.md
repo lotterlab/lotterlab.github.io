@@ -3,14 +3,14 @@ layout: about
 inline: true
 group: Faculty
 group_rank: 1
-group_order: 8
+group_order: 9
 
 title: Matteo Wohlrapp
 description:  
 lastname: Wohlrapp
 publications:  
 
-teaser: 
+teaser:
 
 profile:
     name: Matteo Wohlrapp

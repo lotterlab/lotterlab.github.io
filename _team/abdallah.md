@@ -3,22 +3,22 @@ layout: about
 inline: true
 group: Faculty
 group_rank: 1
-group_order: 6
+group_order: 4
 
-title: Ojas Ramwala
+title: Abdallah Lamane
 description:  
-lastname: Ramwala
+lastname: Lamane
 publications:  
 
-teaser:
+teaser:   
 
 profile:
-    name: Ojas Ramwala
-    position:  Graduate Student
-    team-position: Graduate Student
+    name: Abdallah Lamane
+    position:  PhD Student
+    team-position: PhD Student
     align: right
-    logos: true
-    image: Ojas-Ramwla-Photo.jpg
+    logos: false
+    image: abdallah.jpeg
     email:
     phone:  
     twitter:
