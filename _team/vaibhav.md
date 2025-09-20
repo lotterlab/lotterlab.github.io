@@ -3,7 +3,7 @@ layout: about
 inline: true
 group: Faculty
 group_rank: 1
-group_order: 5
+group_order: 11
 
 title: Vaibhav Mishra
 description:  

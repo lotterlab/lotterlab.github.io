@@ -3,7 +3,7 @@ layout: page
 permalink: /team.html
 title: team
 page-title: Team
-description: <u><b>We're recruiting</b></u> students and postdocs, with a particular focus on AI for pathology image analysis. If you are interested and would like to learn more, please reach out!
+description: 
 nav: true
 nav_order: 2
 nav_rank: 2

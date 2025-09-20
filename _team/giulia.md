@@ -3,14 +3,14 @@ layout: about
 inline: true
 group: Faculty
 group_rank: 1
-group_order: 2
+group_order: 6
 
 title: Giulia Bruschi
 description:  
 lastname: Bruschi
 publications:  
 
-teaser: 
+teaser:
 
 profile:
     name: Giulia Bruschi

@@ -3,7 +3,7 @@ layout: about
 inline: true
 group: Faculty
 group_rank: 1
-group_order: 7
+group_order: 9
 
 title: Rohan Singh
 description:  

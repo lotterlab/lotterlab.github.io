@@ -3,7 +3,7 @@ layout: about
 inline: true
 group: Faculty
 group_rank: 1
-group_order: 6
+group_order: 8
 
 title: Ojas Ramwala
 description:  
@@ -14,8 +14,8 @@ teaser:
 
 profile:
     name: Ojas Ramwala
-    position:  Graduate Student
-    team-position: Graduate Student
+    position:  PhD Student (joint)
+    team-position: PhD Student (joint)
     align: right
     logos: true
     image: Ojas-Ramwla-Photo.jpg

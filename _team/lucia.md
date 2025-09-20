@@ -3,27 +3,27 @@ layout: about
 inline: true
 group: Faculty
 group_rank: 1
-group_order: 2
+group_order: 7
 
-title: Abdallah Lamane
-description:  
-lastname: Lamane
-publications:  
+title: Lucía Morris
+description:
+lastname: Morris
+publications:
 
-teaser:   
+teaser:
 
 profile:
-    name: Abdallah Lamane
+    name: Lucía Morris
     position:  PhD Student
     team-position: PhD Student
     align: right
     logos: false
-    image: abdallah.jpeg
+    image: lucia.jpg
     email:
-    phone:  
+    phone:
     twitter:
     linkedin:
     google_scholar:
     address:
-social: False  # includes social icons at the bottom of the page        
+social: False  # includes social icons at the bottom of the page
 ---
