@@ -1,0 +1,317 @@
+/* ============================================
+   MOBILE RESPONSIVE STYLES
+   ============================================ */
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  
+  /* ===== NAVBAR ===== */
+  /* Fix navbar layout on mobile */
+  .navbar-collapse {
+    text-align: center;
+  }
+  
+  .navbar-nav {
+    margin-bottom: 1rem;
+  }
+  
+  /* Center the "Join Us" button on mobile */
+  .navbar-collapse .ms-auto {
+    margin-left: 0 !important;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .join-btn {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  /* ===== LAB LOGOS ===== */
+  /* Better logo sizing on mobile */
+  .lab-logos {
+    text-align: center;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .lab-logos img {
+    max-height: 45px !important;
+    margin: 0 5px !important;
+    margin-bottom: 10px !important;
+  }
+  
+  /* ===== PUBLICATIONS PAGE ===== */
+  /* Stack publication layout vertically like members page */
+  .publication-item {
+    margin-bottom: 3rem !important;
+    width: 100% !important;
+  }
+  
+  .publication-item .row {
+    flex-direction: column !important;
+    text-align: center !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+  
+  .publication-item .col-2,
+  .publication-item .col-10 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* Make publication thumbnail full width like profile photos */
+  .publication-item .col-2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .publication-item img {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  /* Center all publication text */
+  .publication-item .col-10 {
+    text-align: center !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  
+  /* Adjust publication title size */
+  .publication-item h5 {
+    font-size: 1.1rem !important;
+    margin-bottom: 0.75rem !important;
+    width: 100% !important;
+  }
+  
+  /* Adjust publication author text */
+  .publication-item p {
+    font-size: 0.85rem !important;
+    width: 100% !important;
+  }
+  
+  /* ===== MEMBERS PAGE ===== */
+  /* Center member photos on mobile */
+  .profile-photo {
+    max-width: 100% !important;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Better spacing for member cards */
+  .row.align-items-start.g-4 {
+    text-align: center;
+  }
+  
+  .row.align-items-start.g-4 .col-md-8 {
+    text-align: center;
+  }
+  
+  /* Center profile icons on mobile */
+  .profile-icons {
+    justify-content: center;
+    display: flex;
+  }
+  
+  /* Make member names slightly smaller on mobile */
+  .member-name {
+    font-size: 1.3rem !important;
+  }
+  
+  /* Adjust profile meta text */
+  .profile-meta {
+    font-size: 0.9rem !important;
+  }
+  
+  /* ===== NEWS BOX ===== */
+  /* Make news box non-scrollable on mobile - expand to fit content */
+  .news-box {
+    max-height: none !important;
+    overflow-y: visible !important;
+    margin-bottom: 2rem;
+  }
+  
+  /* ===== GENERAL LAYOUT ===== */
+  /* Add padding to container on mobile */
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /* Adjust heading sizes */
+  h1 {
+    font-size: 1.75rem !important;
+  }
+  
+  h4 {
+    font-size: 1.1rem !important;
+  }
+  
+  /* Better spacing for content columns */
+  .col-md-7, .col-md-4 {
+    margin-bottom: 2rem;
+  }
+  
+  /* Hide spacer columns on mobile */
+  .col-md-1 {
+    display: none;
+  }
+  
+  /* ===== JOIN PAGE ===== */
+  /* Make the ghibli image full width on mobile */
+  .col-md-7 img[alt="DFCI Ghibli"] {
+    max-width: 100% !important;
+  }
+  
+  /* ===== LAB LIFE IMAGES ===== */
+  /* Add spacing between lab life images on mobile */
+  .col-md-6 {
+    margin-bottom: 1rem;
+  }
+  
+  /* ===== FOOTER ===== */
+  /* Slightly smaller footer logo */
+  .container.text-center img[alt="Lotter Lab logo"] {
+    height: 45px !important;
+  }
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 576px) {
+  
+  /* Even smaller text for very small screens */
+  .publication-item h5 {
+    font-size: 1rem !important;
+  }
+  
+  .publication-item p {
+    font-size: 0.8rem !important;
+  }
+  
+  /* Publication images remain full width on very small screens */
+  
+  /* Reduce logo sizes further */
+  .lab-logos img {
+    max-height: 40px !important;
+    margin: 0 3px !important;
+  }
+  
+  /* Reduce container padding on very small screens */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Smaller navbar brand logo */
+  .navbar-brand img {
+    height: 2.2rem !important;
+  }
+  
+  /* Profile icons slightly smaller */
+  .profile-icons a {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 1rem !important;
+  }
+}
+
+/* Tablet adjustments (between mobile and desktop) */
+@media (min-width: 769px) and (max-width: 991px) {
+  
+  /* Adjust column widths for tablets */
+  .col-md-7 {
+    flex: 0 0 65% !important;
+    max-width: 65% !important;
+  }
+  
+  .col-md-4 {
+    flex: 0 0 33% !important;
+    max-width: 33% !important;
+  }
+  
+  /* Slightly reduce logo sizes on tablets */
+  .lab-logos img {
+    max-height: 50px !important;
+  }
+}
+
+/* ============================================
+   IMPROVEMENTS FOR ALL SCREEN SIZES
+   ============================================ */
+
+/* Desktop-specific styles (769px and above) */
+@media (min-width: 769px) {
+  /* News box desktop behavior - keep scrollable on large screens */
+  .news-box {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  /* Make publication images larger on desktop */
+  .publication-item img {
+    max-width: 160px !important;
+  }
+  
+  /* Adjust publication column widths to accommodate larger images */
+  .publication-item .col-2 {
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
+    padding-right: 2rem !important;
+  }
+  
+  .publication-item .col-10 {
+    flex: 0 0 75% !important;
+    max-width: 75% !important;
+    padding-left: 1rem !important;
+  }
+  
+  /* Fix profile icons to be square on desktop */
+  .profile-icons a {
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent horizontal overflow */
+body {
+  overflow-x: hidden;
+}
+
+/* Ensure images don't overflow */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Better link transitions */
+a {
+  transition: color 0.2s ease;
+}
+
+/* Improve button tap targets on mobile */
+.join-btn,
+.nav-link {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Profile icons need specific dimensions (set in inline styles and above) */
+

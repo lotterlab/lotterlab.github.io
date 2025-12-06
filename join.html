@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lotter Lab | Join Us</title>
+  <link rel="icon" type="image/png" href="assets/images/dfci.png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Global font */
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    /* Hyperlink colors */
+    a {
+      color: #006599;
+    }
+    a:hover {
+      color: #f99c1c;
+    }
+    
+    /* Navbar customizations */
+    .navbar {
+      background-color: transparent !important;
+    }
+    .navbar-nav {
+      flex: 1;
+      justify-content: center;
+    }
+    .navbar-brand {
+      margin-right: auto;
+    }
+    .nav-link:hover {
+      color: #f99c1c !important;
+    }
+    .join-btn {
+      border: 2px solid #006599;
+      border-radius: 8px;
+      padding: 6px 12px;
+      text-decoration: none;
+      color: #006599;
+      transition: background 0.2s;
+    }
+    .join-btn:hover {
+      background-color: #f99c1c;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+        <img src="assets/images/lab.png" alt="Lotter Lab" style="height: 2.8rem;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="members.html">Members</a></li>
+        </ul>
+        <div class="ms-auto">
+          <a class="join-btn" href="join.html">Join Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Join Info -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-7">
+        <h1>Join Us</h1>
+        <hr class="my-3" style="border-color: #dee2e6; border-width: 1px;">
+        <img src="assets/images/dfci_ghibli.png" alt="DFCI Ghibli" class="img-fluid mb-4" style="max-width: 60%; border-radius: 12px;">
+        <p>We are always looking for motivated students and researchers to join our lab.</p>
+        <p>We accept graduate students across Harvard and MIT. We are especially affiliated with the Harvard <a href="https://dbmi.hms.harvard.edu/education/phd-program/big-phd-track" target="_blank" style="text-decoration: none;">BIG</a>, Harvard <a href="https://biophysics.fas.harvard.edu/" target="_blank" style="text-decoration: none;">Biophysics</a>, Harvard <a href="https://bmiphd.hms.harvard.edu/aim-track/welcome-to-aim" target="_blank" style="text-decoration: none;">AIM</a>, and Harvard-MIT <a href="https://hst.mit.edu/" target="_blank" style="text-decoration: none;">HST</a> PhD programs.</p>
+        <p>Contact: lotterb at ds.dfci.harvard.edu</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer: Lab logo -->
+  <div class="container text-center my-5">
+    <img src="assets/images/lab.png" alt="Lotter Lab logo" style="height: 60px;">
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
