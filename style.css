@@ -249,12 +249,6 @@
 
 /* Desktop-specific styles (769px and above) */
 @media (min-width: 769px) {
-  /* News box desktop behavior - keep scrollable on large screens */
-  .news-box {
-    max-height: 400px;
-    overflow-y: auto;
-  }
-  
   /* Make publication images larger on desktop */
   .publication-item img {
     max-width: 160px !important;
