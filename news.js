@@ -1,6 +1,11 @@
 // News data - update this file to add new news items
 const newsData = [
   {
+    date: "Sept 2026",
+    title: "Best Paper Award: iMIMIC Workshop at MICCAI 2026",
+    description: 'Congrats to Abdallah and team! Read about <a href="https://arxiv.org/abs/2608.02803" target="_blank" class="text-decoration-none">SAGE</a>, a semantic explainability framework for computational pathology.'
+  },
+  {
     date: "Aug 2026",
     title: "Two new papers accepted for presentation ECCV and MICCAI 2026 workshops",
     description: 'Read about <a href="https://arxiv.org/abs/2607.27154" target="_blank" class="text-decoration-none">ACA</a>, an anatomically-grounded adaptation strategy for CT foundation models, and <a href="https://arxiv.org/abs/2608.02803" target="_blank" class="text-decoration-none">SAGE</a>, a semantic explainability framework for computational pathology.'
