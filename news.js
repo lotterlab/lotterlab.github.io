@@ -1,5 +1,10 @@
 // News data - update this file to add new news items
 const newsData = [
+    {
+    date: "Nov 2026",
+    title: "New paper accepted to NeurIPS 2026",
+    description: 'Read about our <a href="https://arxiv.org/abs/2601.21334" target="_blank" class="text-decoration-none">framework</a> for assessing whether pathology foundation models implicitly encode disease progression.'
+  },
   {
     date: "Sept 2026",
     title: "Best Paper Award: iMIMIC Workshop at MICCAI 2026",
